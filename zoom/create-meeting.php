@@ -14,10 +14,10 @@ function create_meeting() {
                 "Authorization" => "Bearer $accessToken"
             ],
             'json' => [
-                "topic" => "Hola Meli!!",
+                "topic" => "Entremos a la clase enlazada!!",
                 "type" => 2,
                 "start_time" => "2021-03-05T20:30:00",
-                "duration" => "60", // 30 mins
+                "duration" => "15", // 30 mins
                 "password" => "123"
             ],
         ]);
